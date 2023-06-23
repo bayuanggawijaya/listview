@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         body: ListView.custom(
           childrenDelegate: SliverChildBuilderDelegate((context, index) => Text(
                 "${index + 1}",
-                style: TextStyle(fontSize: 20 + index.toDouble()),
+                style: TextStyle(fontSize: 19 + index.toDouble()),
               )),
         ),
       ),
